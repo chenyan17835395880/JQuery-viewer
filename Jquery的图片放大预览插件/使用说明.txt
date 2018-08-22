@@ -1,0 +1,10 @@
+一、JQuery单张或多张图片放大预览插件Viewer用法：      
+	1、引入两个css和一个js
+            <link href="css/viewer.min.css" rel="stylesheet">  
+			<link href="css/main.css" rel="stylesheet"> 
+			<script type="text/javascript" src="js/viewer.min.js" charset="UTF-8"></script>
+	2、要想预览谁里面的图片，就给谁加.viewer()这个方法；Viewer插件在每次查询之后需要update一下；
+		 例如：$('#now').viewer({"zIndex":"9999"});//设置预览的层级
+                   $("#now").viewer('update'); //每次查看不同模块的图片时，要更新一下viewer
+		 
+二、具体参数：可见https://www.cnblogs.com/yi0921/p/7080284.html
